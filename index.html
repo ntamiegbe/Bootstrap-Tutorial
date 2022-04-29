@@ -21,9 +21,9 @@
 
             <!-- Hamburger button for mobile navbar -->
 
-            <button class="navbar toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav"
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav"
             aria-controls="main-nav" aria-expanded="false" aria-label="Toggle Navigation">
-                <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon"></span>
             </button>
 
             <!-- Navbar links -->
@@ -49,6 +49,7 @@
         </div>
     </nav>
 
+    <!-- Header Section -->
 
     <section id="intro">
         <div class="container-fluid">
@@ -68,6 +69,87 @@
             </div>
         </div>
     </section>
+
+    <!-- Pricing <Section></Section> -->
+
+    <section id="pricing" class="bg-light mt-5">
+        <div class="container-lg">
+            <div class="text-center">
+                <h2>Pricing Plans</h2>
+                 <p class="lead text-muted">Choose a pricing plan for you</p>   
+            </div>
+            <div class="row my-5 align-items-center justify-content-center g-4">
+                <div class="col-8 col-lg-4 col-xl-3">
+                    <div class="card">
+                        <div class="card-body text-center py-4">
+                            <h4 class="card-title">Lite Plan</h4>
+                            <p class="lead card-subtitle">E-book download only</p>
+                            <p class="display-5 my-4 fw-bold">₦5,000</p>
+                            <p class="card-text mx-5 text-muted d-block">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus, quae?</p>
+                            <a href="#" class="btn btn-outline-secondary btn-lg mt-4">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-9 col-lg-4">
+                    <div class="card border-secondary border-1">
+                        <div class="card-header text-center text-secondary">Most Popular</div>
+                            <div class="card-body text-center py-5">
+                                <h4 class="card-title">Standard Plan</h4>
+                                <p class="lead card-subtitle">E-book download and all updates</p>
+                                <p class="display-4 my-4 fw-bold">₦9,000</p>
+                                <p class="card-text mx-5 text-muted d-block">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus, quae?</p>
+                                <a href="#" class="btn btn-outline-secondary btn-lg mt-4">Buy Now</a>
+                            </div>
+                    </div>
+                </div>
+                
+                <div class="col-8 col-lg-4 col-xl-3">
+                    <div class="card">
+                        <div class="card-body text-center py-4">
+                            <h4 class="card-title">Premium Plan</h4>
+                            <p class="lead card-subtitle">E-book download, updates and a lot more</p>
+                            <p class="display-5 my-4 fw-bold">₦15,000</p> 
+                            <p class="card-text mx-5 text-muted d-block">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus, quae?</p>
+                            <a href="#" class="btn btn-outline-secondary btn-lg mt-4">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </div>
+    </section>
+
+
+    <!-- About the book -->
+
+    <section id="topics">
+        <div class="container-md">
+            <div class="text-center">
+                <h2>Inside the book ...</h2>
+                <p class="lead text-muted"> A quick glance of the book</p>
+            </div>
+
+            <div class="row my-5 g-5 justify-content-around align-items-center">
+                <div class="col-6 col-lg-4">
+                    <img src="/assets/arnold-francisca-f77Bh3inUpE-unsplash.jpg" alt="" class="img-fluid">
+                </div>
+
+                <!-- Accordion -->
+
+                <div class="accordion accordion-flush" id="chapters">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading-1">
+                            <button class="accordion-button text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#chapter-1"
+                             aria-expanded="true" aria-controls="chapter-1">
+                                Chapter 1 - Understanding the Web
+                            </button>
+                        </h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
 integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" 
